@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(120deg, 	#90EE90, 	#F0FFF0);
+  height: 100vh;
+  overflow: hidden;
+}
+<style>
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+label {
+    font-weight: bold;
+}
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+</style>
